@@ -33,11 +33,11 @@ function game() {                                 //Keeps playing rounds until s
 
 
 
-function playRound(computerSelection, userSelection) {        /* this function plays one round
-                                                             (i.e. gets computer's and user's choice, "compares" them and decides the outcome of the round (possible outcomes are:
-                                                                computer is the round winner, user is the round winner, it is a tie), then calls a function that displays the score and 
-                                                                the appropriate message) */
 
+/* this function plays one round (i.e. gets computer's and user's choice, "compares" them and decides the outcome of the round (possible outcomes are:
+computer is the round winner, user is the round winner, it is a tie), then calls a function that displays the score and the appropriate message) */
+
+function playRound(computerSelection, userSelection) {       
 
     userSelection=getUserChoice();                            //User selection should be first, so I don't see the computer's choice before making my own
     console.log("User's choice:", userSelection);
